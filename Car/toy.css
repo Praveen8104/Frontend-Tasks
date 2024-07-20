@@ -1,0 +1,320 @@
+.back{
+    height: 500px;
+    width: 100%;
+}
+.cloud1{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    position: relative;
+    left: -40px;
+    top:-20px
+}
+.cloud2{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    position: relative;
+    left: 40px;
+    top: -150px;
+}
+.cloud3{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    position: relative;
+    left: 100px;
+    top: -220px;
+}
+.cloud4{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+    background-color: skyblue;
+    position: relative;
+    top: -370px;
+    left: 180px;
+}
+.cloud5{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    position: relative;
+    top: -500px;
+    left: 300px;
+}
+.cloud6{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    position: relative;
+    top: -600px;
+    left: 390px;
+}
+.cloud7{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    position: relative;
+    top: -720px;
+    left: 480px;
+}
+.cloud8{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    position: relative;
+    top: -790px;
+    left: 550px;
+}
+.cloud9{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    position: relative;
+    top: -900px;
+    left: 630px;
+}
+.cloud10{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    position: relative;
+    top: -1000px;
+    left: 700px;
+}
+.cloud11{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+    background-color: skyblue;
+    position: relative;
+    top: -1150px;
+    left: 790px;
+}
+.cloud12{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    position: relative;
+    top: -1300px;
+    left: 980px;
+}
+.cloud13{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    height: 120px;
+    width: 130px;
+    background-color: skyblue;
+    position: relative;
+    top: -1410px;
+    left: 1070px;
+}
+.cloud14{
+    border: 1px solid transparent;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    position: relative;
+    top: -1530px;
+    left: 1154px;
+}
+.sun{
+    height: 150px;
+    width: 150px;
+    border: 2px solid transparent;
+    border-radius: 100%;
+    position: relative;
+    top: -1550px;
+    left: 700px;
+    background-color: orange;
+    box-shadow: 0px 0px 10px 5px lightcoral;
+}
+.road{
+    width: 100%;
+    height: 230px;
+    border: 2px soli black;
+    background-color: black;
+    position: relative;
+    bottom:1400px ;
+}
+.top{
+    border: 2px solid black;
+    height: 35px;
+    width: 80px;
+    background-color: black;
+    position: relative;
+    left: 440px;
+    top: -30px;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+}
+.win1{
+    border: 2px solid transparent;
+    height: 30px;
+    width: 35px;
+    background-color: white;
+    border-top-left-radius: 100%;
+    border-bottom-left-radius: 20%;
+    position: relative;
+    left: px;
+    top: 2px;
+}
+.win2{
+    border: 2px solid transparent;
+    height: 30px;
+    width: 35px;
+    background-color: white;
+    border-top-right-radius: 100%;
+    border-bottom-right-radius: 20%;
+    position: relative;
+    left: 42px;
+    top: -32px;
+}
+.head1{
+    border: 2px solid blue;
+    height: 10px;
+    width:10px;
+    border-radius: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: blue;
+    position: relative;
+    left: 157px;
+    top: 5px;
+}
+.head2{
+    border: 2px solid blue;
+    height: 20px;
+    width:20px;
+    border-radius: 100%;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: blue;
+    position: relative;
+    left: 128px;
+}
+.car{
+    border: 2px solid red;
+    height: 40px;
+    width: 170px;
+    position: relative;
+    top: -30px;
+    left: 400px;
+    background-color: red;
+}
+.wheel1{
+    border: 2px solid white;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    position: relative;
+    left: 420px;
+    top: -50px;
+}
+.wheel2{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 100%;
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    position: relative;
+    left: 510px;
+    top: -94px;
+}
+.strip1{
+    display: inline-block;
+    border: 2px solid white;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+    position: relative;
+    left: -40px;
+    top: -50px;
+}
+.strip2{
+    display: inline-block;
+    border: 2px solid white;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+    position: relative;
+    left: 40px;
+    top: -50px;
+}
+.strip3{
+    display: inline-block;
+    border: 2px solid white;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+    position: relative;
+    left: 120px;
+    top: -50px;
+}
+.strip4{
+    display: inline-block;
+    border: 2px solid white;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+    position: relative;
+    left: 200px;
+    top: -50px;
+}
+.strip5{
+    display: inline-block;
+    border: 2px solid white;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+    position: relative;
+    left: 280px;
+    top: -50px;
+}
+.strip6{
+    display: inline-block;
+    border: 2px solid white;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+    position: relative;
+    left: 360px;
+    top: -50px;
+}
+.strip7{
+    display: inline-block;
+    border: 2px solid white;
+    background-color: white;
+    height: 20px;
+    width: 100px;
+    position: relative;
+    left: 440px;
+    top: -50px;
+}
+

@@ -1,0 +1,116 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	width: 100%;
+	height: 100svh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+.day{
+	width: 100%;
+	height: 50%;
+	background-color: orange;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	animation-name: sun_background;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in;
+}
+.sun{
+	height: 100px;
+	width: 100px;
+	background-image: url("https://scied.ucar.edu/sites/default/files/styles/extra_large/public/images/Sun_iss_transit.jpeg.webp?itok=mkIYnxQ9");
+	background-size: 100% 100%;
+	animation-name: day;
+	animation-duration: 5s;
+	position: absolute;
+	top: 250px;
+	border-radius: 50%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.night{
+	width: 100%;
+	height: 50%;
+	background-color: grey;
+	display: flex;
+	justify-content: center;
+	animation-name : moon_background;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+.moon{
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	animation-name: moon;
+	animation-duration: 5s;
+	position: absolute;
+	top: 250px;
+	border-radius: 50%;
+	background-image: url(https://images-assets.nasa.gov/image/PIA00405/PIA00405~large.jpg?w=1920&h=1920&fit=clip&crop=faces%2Cfocalpoint);
+	background-size: 100% 100%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+@keyframes day{
+	0%{
+		transform: rotate(0deg) translate(-200px);
+	}
+	100%{
+		transform: rotate(360deg) translate(-200px);
+	}
+}
+@keyframes moon {
+	0%{
+		transform: rotate(0deg) translate(200px);
+	}
+	100%{
+		transform: rotate(360deg) translate(200px);
+	}
+}
+@keyframes sun_background {
+	0%{
+		background-color: orangered;
+	}
+	25%{
+		background-color: orange;
+	}
+	50%{
+		background-color: rgb(135, 89, 5);
+	}
+	75%{
+		background-color: rgb(60, 60, 60);
+	}
+	100%{
+		background-color: black;
+	}
+
+}
+@keyframes moon_background {
+	0%{
+		background-color: black;
+	}
+	25%{
+		background-color: rgb(60, 60, 60);
+	}
+	50%{
+		background-color: rgb(135, 89, 5);
+
+	}
+	75%{
+		background-color: orange;
+
+	}
+	100%{
+		background-color: orangered;
+	}
+}

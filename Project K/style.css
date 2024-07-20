@@ -1,0 +1,235 @@
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.parent {
+    width: 100%;
+    height: 100svh;
+}
+
+.div1 {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.image img {
+    height: 550px;
+    width: 350px;
+    animation-name: my_image;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.right_side {
+    height: 100%;
+    width: 60%;
+}
+
+.text1 {
+    height: 50%;
+    width: 65%;
+    margin-left: 7%;
+    margin-top: 10%;
+}
+
+.bottom {
+    height: 35%;
+    width: 65%;
+    margin-left: 7%;
+    margin-top: -5%;
+    display: flex;
+}
+
+.image2 {
+    height: 80%;
+    width: 15%;
+    margin-left: 0%;
+}
+
+.div2 {
+    height: 100svh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(236, 231, 231);
+}
+
+.top {
+    margin-top: 5%;
+    height: 20%;
+    width: 100%;
+}
+
+.line1 {
+    color: rgb(102, 102, 206);
+    font-size: 52px;
+    font-family: "Roboto";
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+.line2 {
+    margin-top: 1%;
+    font-size: 16px;
+    font-family: "Roboto";
+}
+
+.benefits {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.b {
+    height: 120px;
+    width: 700px;
+    margin: 10px;
+    display: flex;
+    background-color: rgb(231, 221, 221);
+}
+
+.b:hover {
+    background-color: blue;
+}
+
+.b:hover .number {
+    color: white;
+}
+
+.b:hover .content {
+    color: white;
+}
+
+.number {
+    height: 100%;
+    width: 10%;
+    color: blue;
+    font-size: 40px;
+    font-family: "Roboto";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    font-family: "Roboto";
+    font-size: 14px;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+}
+
+.div3 {
+    height: 100svh;
+    width: 100%;
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.left_child {
+    width: 70%;
+    height: 100%;
+
+}
+
+.idea {
+    width: 65%;
+    height: 12%;
+    display: flex;
+    margin-top: 25%;
+}
+
+.left img {
+    height: 75px;
+    width: 75px;
+}
+
+.heading1 {
+    height: fit-content;
+    width: 100%;
+    font-size: 32px;
+    font-family: "Roboto";
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+
+.main_content {
+    font-family: "Roboto";
+    font-size: 15px;
+    margin-top: 5%;
+    line-height: 25px;
+    width: 90%;
+}
+
+.link {
+    margin-top: 5%;
+    font-family: "Roboto";
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.right img {
+    height: 550px;
+    width: 400px;
+    animation-name: my_image1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes my_image {
+    0% {
+        transform: translateY(0, 0)
+    }
+
+    50% {
+        transform: translate(-5%, -5%)
+    }
+
+    100% {
+        transform: translateY(0, 0)
+    }
+}
+
+@keyframes my_image1 {
+    0% {
+        transform: translateY(0, 0)
+    }
+
+    50% {
+        transform: translate(4%, -4%)
+    }
+
+    100% {
+        transform: translateY(0, 0)
+    }
+}
+

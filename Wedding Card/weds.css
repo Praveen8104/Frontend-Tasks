@@ -1,0 +1,50 @@
+.img{
+    width:100%;
+    height:100svh;
+    background-image: url("bg.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.head1{
+    font-family:"Great Vibes";
+    text-align: center;
+    font-size: 30px;
+    padding-top: 70px;
+}
+.line{
+    text-align: center;
+    font-family: "Square Peg";
+    font-size: 20px;
+}
+.head2{
+    border: 2px solid black;
+    height: 200px;
+    width: 400px;
+    border-color: transparent;
+}
+.bride{
+    font-family: "Ballet";
+    font-size: 55px;
+    margin-right: 150px;
+}
+.and{
+    font-family: "Great Vibes";
+    font-size: 20px;
+    position: relative;
+    top: -25px;
+}
+.groom{
+    font-family: "Ballet";
+    font-size: 55px;
+    margin-left: 150px;
+    line-height: 200%;
+    position: relative;
+    top: -45px;
+}
+.date{
+    font-family: "Great Vibes";
+    font-size: 16px;
+    position: relative;
+    top:-20%;
+}

@@ -1,0 +1,441 @@
+body {
+    width: 100%;
+    height: 100svh;
+}
+
+.header {
+    height: 15svh;
+    width: 100%;
+    background-color: black;
+    opacity: .5;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.logo {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    background-image: url("https://altlights.com/static/media/Logo_Image.30031c07f18c8695da51.png");
+    background-size: 100% 100%;
+    position: relative;
+    left: 25px;
+}
+
+.options {
+    color: white;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    width: 50%;
+    height: 100%;
+}
+
+.b1 {
+    width: 25%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.strip {
+    border: 2px solid red;
+    width: 90%;
+    position: absolute;
+    top: 40px;
+    display: none;
+}
+
+.b1:hover .strip {
+    display: block;
+}
+
+.menu {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    right: 0px;
+    align-content: center;
+    display: none;
+    font-size: 30px;
+}
+
+.image {
+    display: flex;
+    height: 100svh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: url("https://www.lighting.philips.co.in/b-dam/b2c/en_IN/marketing-catalog/lighting/living-room-lighting-ideas/20220208-cove-lighting.jpg");
+    position: relative;
+    top: -15svh;
+    justify-content: center;
+    align-items: center;
+    z-index: -1;
+}
+
+.text1 {
+    color: black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.line1 {
+    font-size: 50px;
+    position: absolute;
+    font-weight: 700;
+}
+
+.line2 {
+    font-size: 20px;
+    position: absolute;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text2 {
+    font-size: 35px;
+    color: red;
+    font-weight: 600;
+    position: relative;
+    top: -50px;
+}
+
+.buttons1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: -30px;
+}
+
+.bb1 {
+    width: 150px;
+    height: 50px;
+    border: 2px solid red;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    transition: all .2s;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.bb1:hover {
+    background-color: red;
+    color: white;
+}
+
+.text3 {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.line3 {
+    font-size: 19px;
+}
+
+.middle {
+    width: 100%;
+}
+
+.scroll {
+    width: 99%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 230px;
+}
+
+.scroll i {
+    height: 50px;
+    width: 50px;
+    border: 2px solid black;
+    border-radius: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 70px;
+}
+
+.card1 {
+    height: 330px;
+    width: 250px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 5px rgb(137, 130, 130);
+    border-radius: 20px;
+    transition: transform .2s;
+    background-image: url("https://altlights.com/assets/img/About/Residential/Cards_Residential_Sway.png");
+    background-size: 100% 100%;
+    opacity: .6;
+}
+
+.card2 {
+    height: 330px;
+    width: 250px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 5px rgb(137, 130, 130);
+    border-radius: 20px;
+    transition: transform .2s;
+    background-image: url("https://altlights.com/assets/img/About/Residential/Cards_Residential_Sway.png");
+    background-size: 100% 100%;
+}
+
+.card3 {
+    height: 330px;
+    width: 250px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 5px rgb(137, 130, 130);
+    border-radius: 20px;
+    transition: transform .2s;
+    background-image: url("https://altlights.com/assets/img/About/Residential/Cards_Residential_Sway.png");
+    background-size: 100% 100%;
+    opacity: .6;
+}
+
+.card1:hover {
+    transform: scale(1.1);
+}
+
+.card2:hover {
+    transform: scale(1.1);
+}
+
+.card3:hover {
+    transform: scale(1.1);
+}
+
+.card2:hover .name {
+    color: red;
+}
+
+.name {
+    position: relative;
+    bottom: -350px;
+    left: 100px;
+    font-size: 20px;
+}
+
+.name1 {
+    position: relative;
+    bottom: -350px;
+    left: 80px;
+    font-size: 20px;
+}
+
+.end {
+    position: relative;
+    z-index: 2;
+    top: 200px;
+    font-size: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boxes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+}
+
+.box1 {
+    height: 300px;
+    width: 450px;
+    margin: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 img {
+    width: 95%;
+    height: 95%;
+}
+
+.box2 {
+    height: 300px;
+    width: 450px;
+    margin: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box2 img {
+    width: 95%;
+    height: 95%;
+}
+
+.box3 {
+    height: 300px;
+    width: 450px;
+    margin: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 img {
+    width: 95%;
+    height: 95%;
+}
+
+.box4 {
+    height: 300px;
+    width: 450px;
+    margin: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box4 img {
+    width: 95%;
+    height: 95%;
+}
+
+.box5 {
+    height: 300px;
+    width: 450px;
+    margin: 20px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box5 img {
+    width: 95%;
+    height: 95%;
+}
+
+.brands {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(75, 121, 162);
+    position: relative;
+    top: 350px;
+}
+
+.stories {
+    height: 100svh;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    top: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen {
+    height: 85%;
+    width: 90%;
+    background-color: white;
+    position: relative;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bars {
+    height: 55px;
+    width: 95%;
+    background-color: #D5D5D5;
+    border-radius: 30px;
+    position: absolute;
+    top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+    margin: 5px;
+}
+.bar{
+    text-align: center;
+    width: 30%;
+    height: 90%;
+    border-radius: 30px;
+    align-content: center;
+    transition: all .2s;
+    margin: 2px;
+}
+.bar i{
+    margin: 5px;
+}
+.bar:hover{
+    background-color: red;
+    color: white;
+}
+.story{
+    height: 80%;
+    width: 100%;
+    position: relative;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+}
+.heading1{
+    position: absolute;
+    left: 45px;
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
+}
+.matter1{
+    position: absolute;
+    top: 50px;
+    width: 90%;
+    left: 45px;
+    font-size: 18px;
+}
+.collections{
+    width: 100%;
+    height: 90svh;
+    background-color: #D5D5D5;
+    display: flex;
+    position: relative;
+    top: 350px;
+}
+.book{
+    height: 400px;
+    width: 400px;
+    background-image: url("https://www.altlights.com/assets/img/3D_Catalogs/OutDoor_Compressed/1.png");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}

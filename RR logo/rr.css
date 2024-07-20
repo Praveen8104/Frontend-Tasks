@@ -1,0 +1,45 @@
+.back{
+    height: 350px;
+    width: 200px;
+    background-color: #ADADAD;
+    border: 2px solid #A1A1A1;
+    box-shadow: 0px 0px 10px 5px #888888;
+    border-radius: 20px;
+    position: relative;
+    top: 100px;
+}
+.border{
+    height: 330px;
+    width: 175px;
+    border: 4px solid black;
+    border-radius: 20px;
+    margin-top: 7px;
+    font-size: 50px;
+}
+.upper{
+    height: 0px;
+    width:170px;
+    border: 2px solid black;
+}
+.down{
+    height: 0px;
+    width:170px;
+    border: 2px solid black;
+    position: relative;
+    bottom: 350px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.r1{
+    font-size: 210px;
+    position: relative;
+    bottom: 50px;
+    right: 15px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.r2{
+    font-size: 210px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    position: relative;
+    bottom: 310px;
+    left: 20px;
+}
